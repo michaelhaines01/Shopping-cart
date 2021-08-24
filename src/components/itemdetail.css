@@ -1,0 +1,28 @@
+.itemwrapper {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  margin: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: rgb(55, 55, 224);
+  align-items: baseline;
+}
+
+button {
+  background: white;
+  border: none;
+  background-color: rgb(55, 55, 224);
+}
+.img-wrapper {
+  height: 450px;
+  width: 450px;
+}
+.img-wrapper img {
+  width: 100%;
+  height: auto;
+  margin-top: -30px;
+}

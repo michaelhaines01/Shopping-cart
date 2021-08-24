@@ -1,0 +1,62 @@
+.grid {
+  font-family: Roboto, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
+}
+
+.purchase-card {
+  grid-area: right;
+  justify-self: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 50%;
+  height: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  margin-top: 65px;
+}
+.purchase-info {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item-grid {
+  grid-area: left;
+  justify-self: center;
+  margin-top: 65px;
+}
+.item {
+  display: flex;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.cart-img-wrapper {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.cart-img-wrapper img {
+  width: 100%;
+  height: auto;
+}
